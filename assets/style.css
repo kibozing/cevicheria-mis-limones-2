@@ -380,6 +380,14 @@ carta
     url('../images/fonts/EraserRegular-webfont.svg#eraserregular') format('svg');
     font-weight: normal;
     font-style: normal; 
+    background: #fefcea; /* Old browsers */
+    background: -moz-linear-gradient(top,  #FFFF33 0%, #5BD75B 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFF33), color-stop(100%,#5BD75B)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FFFF33 0%,#5BD75B 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFF33', endColorstr='#5BD75B',GradientType=0 ); /* IE6-9 */
     }
 
 /**************
