@@ -1,12 +1,13 @@
 body {	
 	color:#333;	
 	font:300 15px/15px Roboto,Arial,Helvetica;
-	background:url(../images/800px-Choritos_a_la_chalaca.JPG); 
+	background:url(../images/seamless_paper_texture.png); 
 	right no-repeat fixed #fff; 
 	-webkit-font-smoothing:antialiased;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    background-size: cover;     
 }
 
 a{color:#00a9c6; text-decoration:none;}
@@ -51,7 +52,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.4);}
 .banner img.img-responsive {
 	  	background-repeat: none;
-	  	width
+	  	width: 100%;
 		background-size: cover;		
 }
 
@@ -345,7 +346,7 @@ carta
 	}
 
 
-.panel.panel-default    {
+.panel .panel-default    {
     border-collapse: collapse; border-spacing: 0;
     box-shadow:3px 3px 6px 4px #C4C4C4;
     background: #fefcea; /* Old browsers */
@@ -366,10 +367,20 @@ carta
     url('../images/fonts/EraserRegular-webfont.ttf') format('truetype'),
     url('../images/fonts/EraserRegular-webfont.svg#eraserregular') format('svg');
     font-weight: normal;
-    font-style: italic; 
+    font-style: normal; 
     color: #32CD32;
 }
 
+.panel-body {
+    font-family: 'eraserregular';
+    src: url('../images/fonts/EraserRegular-webfont.eot');
+    src: url('../images/fonts/EraserRegular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../images/fonts/EraserRegular-webfont.woff') format('woff'),
+    url('../images/fonts/EraserRegular-webfont.ttf') format('truetype'),
+    url('../images/fonts/EraserRegular-webfont.svg#eraserregular') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+    }
 
 /**************
 GALLERY
