@@ -309,7 +309,7 @@ menu collapseOne chalk
     url('../images/fonts/EraserRegular-webfont.svg#eraserregular') format('svg');
     font-weight: normal;
     font-style: normal; 
-    color:black;
+    color:#32CD32;
     text-shadow: 3px 3px 5px rgba(150, 150, 150, 1);
     background-color: ;
 }
@@ -341,6 +341,7 @@ carta
     url('../images/fonts/EraserRegular-webfont.svg#eraserregular') format('svg');
     font-weight: bold;
     font-style: normal; 
+    color: #32CD32;
 	}
 
 
@@ -366,7 +367,7 @@ carta
     url('../images/fonts/EraserRegular-webfont.svg#eraserregular') format('svg');
     font-weight: normal;
     font-style: italic; 
-    color: 
+    color: #32CD32;
 }
 
 
