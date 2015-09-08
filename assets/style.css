@@ -149,7 +149,7 @@ img.animated.bounceInUp		{
 	.navbar-brand img{height: 37px;}
 	.navbar-toggle{margin-top: 12px;}
 
-	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
+	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: block;}
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
