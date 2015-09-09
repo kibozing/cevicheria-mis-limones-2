@@ -4,6 +4,7 @@ body {
 	background:url(../images/800px-Choritos_a_la_chalaca.JPG); 
 	right no-repeat fixed #fff; 
 	-webkit-font-smoothing:antialiased;
+    height: 100vh;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
