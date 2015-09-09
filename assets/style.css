@@ -231,6 +231,9 @@ fieldset ul li {
     border-radius:8px;    
 }
 
+.chalk-text {
+    padding-bottom: 10px;
+}
 .ititle
 {
     font-weight:bold;
@@ -249,7 +252,13 @@ fieldset ul li {
     background-size: 100%;   
 }
 
+.menu1   {
+  display: inline;
+}
 
+.menu2   {
+  display: inline;
+}
 
 @font-face {
     font-family: 'eraserregular';
@@ -390,4 +399,5 @@ GALLERY
 
 #foods {
     color:#32CD32;
+    height:auto;
 }
