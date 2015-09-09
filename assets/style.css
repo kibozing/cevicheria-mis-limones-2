@@ -4,7 +4,6 @@ body {
 	background:url(../images/800px-Choritos_a_la_chalaca.JPG); 
 	right no-repeat fixed #fff; 
 	-webkit-font-smoothing:antialiased;
-    height: 100vh;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -42,7 +41,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .topbar {background:url(../images/lines.png);	height:5px;position: fixed;top: 0;width: 100%;z-index: 1000;}
 .navbar-nav > li > a{font-size: 1em;line-height: 3.6em;font-family: Josefin Sans,Arial,Helvetica;}
 .navbar-fixed-top{top: 5px;}
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #fff;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #32CD32;}
 
 #head,.carousel{margin-top: 0;}
 
@@ -68,7 +67,7 @@ img.animated.bounceInUp		{
 .banner a.explore{color: #fff;}
 
 /*about*/
-.about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;}
+.about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;height: 100vh;}
 .food-list{line-height:3em;border-bottom:1px dotted #ccc; }
 .panel-group .panel{border-radius: 0;border:none;}
 .panel-group .panel a:hover{text-decoration: none;}
