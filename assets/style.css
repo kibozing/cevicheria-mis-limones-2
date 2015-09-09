@@ -196,7 +196,7 @@ fieldset
     z-index:1;
     -moz-border-radius:8px;
     border-radius:8px;
-        border-collapse: collapse; border-spacing: 0;
+    border-collapse: collapse; border-spacing: 0;
     box-shadow:3px 3px 6px 4px #0b0808;
 }
 
@@ -231,9 +231,7 @@ fieldset ul li {
     border-radius:8px;    
 }
 
-.chalk-text {
-    padding-bottom: 10px;
-}
+
 .ititle
 {
     font-weight:bold;
@@ -279,13 +277,16 @@ fieldset ul li {
 .menu-area  {
     display: inline-block;
     vertical-align:middle;
-    padding-bottom: 10%;
     max-width: 50%;
     font-family: 'eraserregular';
 }
 
 .ititle		{
 	text-align: middle;
+}
+
+.chalk-test {
+    padding-bottom: 10px;
 }
 
 /**********************
@@ -315,7 +316,7 @@ menu collapseOne chalk
     font-style: normal; 
     color:#32CD32;
     text-shadow: 3px 3px 5px rgba(150, 150, 150, 1);
-    background-color: ;
+    background-color:yellow ;
 }
 .wowload.h4 	{
 	font-family: 'eraserregular';
@@ -363,7 +364,7 @@ carta
 }
 
 .panel-heading h4  {
-        font-family: 'eraserregular';
+    font-family: 'eraserregular';
     src: url('../images/fonts/EraserRegular-webfont.eot');
     src: url('../images/fonts/EraserRegular-webfont.eot?#iefix') format('embedded-opentype'),
     url('../images/fonts/EraserRegular-webfont.woff') format('woff'),
@@ -399,5 +400,5 @@ GALLERY
 
 #foods {
     color:#32CD32;
-    height:auto;
+
 }
