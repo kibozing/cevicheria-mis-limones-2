@@ -247,7 +247,7 @@ fieldset ul li {
     background-image:url('../images/chalkboard-green.jpg');
     background-repeat: no-repeat;
     background-position: center; 
-    background-size: 100%;   
+    background-size: cover; 
 }
 
 .menu1   {
@@ -316,7 +316,6 @@ menu collapseOne chalk
     font-style: normal; 
     color:#32CD32;
     text-shadow: 3px 3px 5px rgba(150, 150, 150, 1);
-    background-color:yellow ;
 }
 .wowload.h4 	{
 	font-family: 'eraserregular';
@@ -375,6 +374,10 @@ carta
     color: #32CD32;
 }
 
+.panel-heading  {
+        box-shadow: 3px 3px 6px 4px #0b0808;
+}
+
 .panel-body {
     font-family: 'eraserregular';
     src: url('../images/fonts/EraserRegular-webfont.eot');
@@ -392,6 +395,7 @@ carta
     background: -ms-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #FFFF33 0%,#5BD75B 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFF33', endColorstr='#5BD75B',GradientType=0 ); /* IE6-9 */
+        box-shadow: 3px 3px 6px 4px #0b0808;
     }
 
 /**************
