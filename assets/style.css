@@ -236,6 +236,7 @@ fieldset ul li {
 {
     font-weight:bold;
     font-size:110%;
+    text-align:center;
 }
 
 .imgback  {
@@ -281,9 +282,6 @@ fieldset ul li {
     font-family: 'eraserregular';
 }
 
-.ititle		{
-	text-align: middle;
-}
 
 .chalk-test {
     padding-bottom: 10px;
