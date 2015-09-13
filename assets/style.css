@@ -334,7 +334,7 @@ carta
 .first	{
 	font-weight:bold;
 	padding-top: 20px;
-	text-shadow: 2px 2px 8px;
+	text-shadow: 2px 2px 2px #000;
     font-family: 'eraserregular';
     src: url('../images/fonts/EraserRegular-webfont.eot');
     src: url('../images/fonts/EraserRegular-webfont.eot?#iefix') format('embedded-opentype'),
